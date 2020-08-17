@@ -1,0 +1,29 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.app__vedios {
+  position: relative;
+  height: 500px;
+  overflow: scroll;
+  width: 80%;
+  border-radius: 20px;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
+
+.app {
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.app__vedios::-webkit-scrollbar {
+  display: none;
+}
+
+.app__vedios {
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
